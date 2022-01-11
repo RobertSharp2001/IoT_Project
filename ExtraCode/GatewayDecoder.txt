@@ -1,0 +1,11 @@
+function Decoder(bytes, port) {
+  // Decode plain text; for testing only 
+  //var b = String.fromCharCode.apply(null, bytes);
+  //var decoded = {};
+  
+  var testShort = (bytes[1] << 8) | bytes[0];
+  
+  return {
+      field1 : testShort
+  };
+}

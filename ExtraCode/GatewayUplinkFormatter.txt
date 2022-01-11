@@ -1,0 +1,11 @@
+function decodeUplink(input) {
+  
+  return {
+    data: {
+      field1 : input.field1,
+      //field2 : input.field2
+    },
+    warnings: [],
+    errors: []
+  };
+}
